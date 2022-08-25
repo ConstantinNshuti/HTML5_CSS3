@@ -1,35 +1,52 @@
 body {
-    
+  max-width: 50%;
+  height: 50%;
+  background-color: lightblue;
+  
 }
 h1 {
     color: red;
+    background-color: bisque;
+    font-family: sans-serif;
+    text-align: center;
 }
-li {
-    color: darkred;
+h2 {
+  font-family: sans-serif;
+    text-align: center;
+    font-size: 8mm;
+}
+ul {
+
+  font-size: 150%
 }
 
 li {
+    color: black;
     list-style: none;
     display: block;
     margin: 0px 20px;
+    text-align: center;
   }
-  
+  ol {
+    text-align: left;
+  }
 .city {
   background-color: yellowgreen;
   color: white;
-  border: 2px solid black;
+  border: 5px solid black;
+  border-style: dashed;
   margin: 10px;
   padding: 20px;
+  display: block;
 }
 
 #div {
     width: auto;
     text-align: left;
-    padding: 15px;
-    border: 3px solid red;
-    
+    padding: 15px; 
     }
 #img {
     max-width: 20%;
     height: 20%;
+    
     }
